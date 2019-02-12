@@ -1,0 +1,60 @@
+{
+  "org1": {
+    "name": "peerOrg1",
+    "mspID": "Org1MSP",
+    "caURL": "https://localhost:7054",
+    "caAdmin": {
+      "userName": "adminOrg1",
+      "password": "adminpw"
+    },
+    "peerMap": {
+      "peer1": {
+        "requestsURL": "grpcs://localhost:7051",
+        "eventsURL": "grpcs://localhost:7053",
+        "host": "peer0.org1.example.com",
+        "tlsCACerts": "tls/tlsca-org1-example-com.crt"
+      },
+      "peer2": {
+        "requestsURL": "grpcs://localhost:7056",
+        "eventsURL": "grpcs://localhost:7058",
+        "host": "peer1.org1.example.com",
+        "tlsCACerts": "tls/tlsca-org1-example-com.crt"
+      }
+    },
+    "admin": {
+      "userName": "org1Admin",
+      "password": "adminpw",
+      "key": "admin/org1.example.com/keystore",
+      "cert": "admin/org1.example.com/signcerts"
+    }
+  },
+  "org2": {
+    "name": "peerOrg2",
+    "mspID": "Org2MSP",
+    "caURL": "https://localhost:8054",
+    "caAdmin": {
+      "userName": "adminOrg2",
+      "password": "adminpw"
+    },
+    "peerMap": {
+      "peer1": {
+        "requestsURL": "grpcs://localhost:8051",
+        "eventsURL": "grpcs://localhost:8053",
+        "host": "peer0.org2.example.com",
+        "tlsCACerts": "tls/tlsca-org2-example-com.crt"
+      },
+      "peer2": {
+        "requestsURL": "grpcs://localhost:8056",
+        "eventsURL": "grpcs://localhost:8058",
+        "host": "peer1.org2.example.com",
+        "tlsCACerts": "tls/tlsca-org2-example-com.crt"
+      }
+    },
+    "admin": {
+      "userName": "org2Admin",
+      "password": "adminpw",
+      "key": "admin/org2.example.com/keystore",
+      "cert": "admin/org2.example.com/signcerts"
+    }
+  }
+}

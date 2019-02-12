@@ -1,0 +1,8 @@
+dl {
+  text-align: left;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+}

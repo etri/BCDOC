@@ -1,0 +1,26 @@
+.padding-5{
+  padding: 5px;
+  margin: 0px;
+}
+
+.border {
+  border: 1px solid #aaaaaa; 
+  border-radius: 5px;
+}
+
+.right {
+  float:right
+}
+
+.fa-clickable {
+  cursor:pointer;
+  outline:none;
+}
+
+/* .border .list-inline li { 
+  float:left; 
+}
+
+.border .list-inline li:last-child { 
+  float:right; 
+} */

@@ -1,0 +1,6 @@
+# Server setting
+PORT=4000
+JWT_SECRET="bigpicturelabs-dapp-server-secret-for-testing"
+
+# DB setting
+DB_URI="mongodb://localhost:27017/etribcdms"

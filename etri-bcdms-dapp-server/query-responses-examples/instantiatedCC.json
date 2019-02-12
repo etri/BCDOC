@@ -1,0 +1,20 @@
+{
+  "chaincodes": [
+    {
+      "name": "tokench_cc",
+      "version": "v0",
+      "path": "bitbucket.org/bigpicturelabs/tokench_cc",
+      "input": "<nil>",
+      "escc": "escc",
+      "vscc": "vscc",
+      "id": {
+        "buffer": { "type": "Buffer", "data": [] },
+        "offset": 0,
+        "markedOffset": -1,
+        "limit": 0,
+        "littleEndian": false,
+        "noAssert": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "orderer": {
+    "url": "grpcs://localhost:7050",
+    "host": "orderer.example.com",
+    "tlsCACerts": "tls/tlsca-example-com.crt"
+  }
+}

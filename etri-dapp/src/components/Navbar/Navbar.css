@@ -1,0 +1,14 @@
+.isDisabled {
+  color: currentColor;
+  cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.25rem;
+}
+
+div.navbar-brand {
+  font-size: 1.5rem;
+} 

@@ -1,0 +1,17 @@
+/* .parent {
+  height: 20px;
+}
+
+.child {
+  line-height: 20px;
+  vertical-align: middle;
+} */
+
+.parent {
+  display: table;
+}
+
+.child {
+    display: table-cell;
+    vertical-align: middle;
+}
